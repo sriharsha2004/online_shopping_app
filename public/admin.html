@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <script src="lib/bootstrap.bundle.js"></script>
+    <script src="lib/axios.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="container">  
+        <header id="container" class="form-control">
+            <h3>Admin Page</h3>        
+        </header>
+        <main class="form-control">
+            <ul>
+                <li>
+                    <input type="text" id="id" placeholder="Product ID" class="form-control">
+                </li>
+                <li>
+                    <select name="" id="selectbox" class="form-control">
+                        <option value="">--Select Category--</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Kids wear">Kids wear</option>
+                        <option value="Home Appliances">Home Appliances</option>
+                        <option value="Books">Book</option>
+                        <option value="Education">Education</option>
+                    </select>
+                </li>
+                <li>
+                    <input type="number" id="price" placeholder="Price" class="form-control">
+                </li>
+                <li>
+                    <input type="text" id="manufacturer" placeholder="Manufacturer" class="form-control">
+                </li>
+                <li>
+                    <input type="text"  id="seller" placeholder="Seller" class="form-control">
+                </li>
+                <li>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <input type="file" name="ProdImage" id="image" class="btn btn-primary">
+                        <input type="button" value="Upload Image" onclick="UploadProductImage()" class="btn btn-outline-primary">
+                    </form>
+                </li>
+                <li>
+                    <input type="number" name="Rating" id="rating" max="5" min="0.5" placeholder="Rating Of product" class="form-control">
+                </li>
+                    <input type="button" value="Add Product" class="btn btn-primary" onclick="readProductDetails()">
+            </ul>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+    <script src="./js/admin.js"></script>
+</body>
+</html>

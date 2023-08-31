@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+#invalidpassword,#invalidreenter,#invalidemail{
+    /* display: none; */
+    color: red;
+}
+#signupfirst{
+    color: green;
+    display: none;
+    text-align: center;
+}
+#captforgot{
+    display: none;
+}
+#invalidforgot{
+    display: none;
+}
+#forgotpassword{
+    margin: 5px;
+}
+#signupcapt{
+    display: none;
+}
+#capt{
+    display: none;
+}
+#logoutbtn{
+    position: absolute;
+    right: 150px;
+    display: none;
+}
+#invalid{
+    display: none;
+}
+#loginbtn{
+    position: absolute;
+    right: 150px;
+}
+/* #loginpopupbtn{
+    display: none;
+} */
+#signupbtn{
+    position: absolute;
+    right: 40px;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+#nav{
+    width: 900px;
+}
+#head,#middle,#bottom{
+    text-align: center;
+}
+#head{
+    border: 1px solid black;
+    height: 100px;
+}
+#middle{
+    height: 500px;
+    border: 1px solid black;    
+}
+/* #bottom{
+    height: 100px;
+    border: 1px solid black; ;
+} */

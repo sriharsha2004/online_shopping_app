@@ -1,0 +1,27 @@
+#middle{
+    overflow: auto;
+}
+#showingproducts{
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+}
+.litag{
+    border: 1px solid black;
+    list-style: none;
+    padding: 4px;
+}
+.productcontainer{
+    /* width: 400px; */
+    border: 1px solid black;
+}
+.ultag{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0px;
+    padding-inline-start: 0px;
+}
+.productsimages{
+    height: 150px;
+    /* width: 200px; */
+    padding: 4px;
+}
