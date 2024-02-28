@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-var {MongoClient, Long} = require("mongodb");
+var {MongoClient} = require("mongodb");
 
 var mongoclient = new MongoClient("mongodb://127.0.0.1:27017");
 router.get("/",(req,res)=>{
